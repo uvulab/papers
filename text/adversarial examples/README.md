@@ -1,4 +1,4 @@
-# `Images/Adversarial Examples`
+# `Text/Adversarial Examples`
 
 This folder is intended to hold papers related to attacking with and defending against adversarial examples.
 
