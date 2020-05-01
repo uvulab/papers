@@ -4,15 +4,10 @@ This repository is intended to house any and all papers that might be useful to 
 
 ## Folders
 
-- `/eeg` contains papers related to projects working on eeg data
 - `/images` contains papers related to projects working on images data
 - `/text` contains papers related to projects working on text data
 
 ## Papers
-
-- `/eeg`
-
-  Currently there are no eeg papers
 
 - `/images`
 
@@ -20,7 +15,18 @@ This repository is intended to house any and all papers that might be useful to 
 
     - `/attacks`
 
+      - [Adversarial Examples In The Physical World](images/adversarial%20examples/attacks/Adversarial%20Examples%20In%20The%20Physical%20World.pdf)
+      - [Adversarial Patch](images/adversarial%20examples/attacks/Adversarial%20Patch.pdf)
+      - [Black-box Adversarial Attacks with Limited Queries and Information](images/adversarial%20examples/attacks/Black-box%20Adversarial%20Attacks%20with%20Limited%20Queries%20and%20Information.pdf)
+      - [Decision-Based Adversarial Attacks Reliable Attacks Against Black-Box Machine Learning Models](images/adversarial%20examples/attacks/Decision-Based%20Adversarial%20Attacks%20Reliable%20Attacks%20Against%20Black-Box%20Machine%20Learning%20Models.pdf)
+      - [Exploring the Landscape of Spatial Robustness](images/adversarial%20examples/attacks/Exploring%20the%20Landscape%20of%20Spatial%20Robustness.pdf)
       - [Fast Gradient Sign Method](images/adversarial%20examples/attacks/Fast%20Gradient%20Sign%20Method.pdf)
+      - [HopSkipJumpAttack A Query-Efficient Decision-Based Attack](images/adversarial%20examples/attacks/HopSkipJumpAttack%20A%20Query-Efficient%20Decision-Based%20Attack.pdf)
+      - [Practical Black-Box Attacks Against Machine Learning](images/adversarial%20examples/attacks/Practical%20Black-Box%20Attacks%20Against%20Machine%20Learning.pdf)
+      - [Simple Black-Box Adversarial Perturbations for Deep Networks](images/adversarial%20examples/attacks/Simple%20Black-Box%20Adversarial%20Perturbations%20for%20Deep%20Networks.pdf)
+      - [Towards Deep Learning Models Resistant to Adversarial Attacks](images/adversarial%20examples/attacks/Towards%20Deep%20Learning%20Models%20Resistant%20to%20Adversarial%20Attacks.pdf)
+      - [Universal Adversarial Perturbations](images/adversarial%20examples/attacks/Universal%20Adversarial%20Perturbations.pdf)
+      - [ZOO Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models](images/adversarial%20examples/attacks/ZOO%20Zeroth%20Order%20Optimization%20Based%20Black-box%20Attacks%20to%20Deep%20Neural%20Networks%20without%20Training%20Substitute%20Models.pdf)
 
     - `/defenses`
 
