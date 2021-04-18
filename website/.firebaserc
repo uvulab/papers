@@ -1,0 +1,31 @@
+{
+  "projects": {
+    "default": "uvupapers",
+    "master": "uvupapers",
+    "prod": "uvupapers"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "env": "staging",
+        "firebase": {
+          "apiKey": "${STAGE_FIREBASE_API_KEY}",
+          "authDomain": "uvupapers.firebaseapp.com",
+          "databaseURL": "https://uvupapers.firebaseio.com",
+          "projectId": "uvupapers",
+          "storageBucket": "uvupapers.appspot.com"
+        }
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "${PROD_FIREBASE_API_KEY}",
+          "authDomain": "uvupapers.firebaseapp.com",
+          "databaseURL": "https://uvupapers.firebaseio.com",
+          "projectId": "uvupapers",
+          "storageBucket": "uvupapers.appspot.com"
+        }
+      }
+    }
+  }
+}

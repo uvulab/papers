@@ -1,0 +1,56 @@
+.responsive {
+  display: flex;
+  height: calc(100vh - 72.6979px);
+}
+
+.pdf-description {
+  z-index: 2;
+  background: white;
+}
+
+[data-type="Resizer"] {
+  background-color: white;
+  z-index: 3;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  margin: 0;
+  opacity: 1;
+  border: none;
+}
+
+[data-attribute="vertical"],
+[data-attribute="horizontal"] {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+[data-attribute="vertical"]:hover,
+[data-attribute="horizontal"]:hover {
+  transition: none;
+  border: none;
+}
+
+[data-attribute="vertical"] {
+  width: 11px;
+  cursor: col-resize;
+}
+
+[data-attribute="vertical"]::before {
+  content: "\2022\2022\2022";
+  display: inline-block;
+  transform: rotate(90deg) translate(calc((100vh - 72.6979px - 19.37px)/2), 6px);
+}
+
+[data-attribute="horizontal"] {
+  height: 10.5px;
+  cursor: row-resize;
+}
+
+[data-attribute="horizontal"]::before {
+  content: "\2022\2022\2022";
+  transform: translate(calc(50% - 12.185px), -5.5px);
+  display: block;
+}

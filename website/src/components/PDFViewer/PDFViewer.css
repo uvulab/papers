@@ -1,0 +1,11 @@
+.pdf-placeholder {
+  position: absolute !important;
+  z-index: 1;
+  width: 100%;
+  max-width: 100%  !important;
+  height: calc(75% - 48.4652666667px);
+}
+
+.pdf-dragging {
+  pointer-events: none;
+}
